@@ -1,0 +1,33 @@
+﻿{
+  "Format": "1.1.0",
+  "AdditionalFluentPaths": [
+    {
+      "LocalizedMod": "shoaib.stardewaccess"
+    },
+    {
+      "LocalizedMod": "shoaib.stardewaccess",
+      "LocalizedFile": "menu",
+      "LocalizingFile": "menu"
+    },
+    {
+      "LocalizedMod": "shoaib.stardewaccess",
+      "LocalizedFile": "static_tiles",
+      "LocalizingFile": "static_tiles"
+    },
+    {
+      "LocalizedMod": "shoaib.stardewaccess",
+      "LocalizedFile": "mini_games",
+      "LocalizingFile": "mini_games"
+    },
+    {
+      "LocalizedMod": "shoaib.stardewaccess",
+      "LocalizedFile": "character_creation_menu",
+      "LocalizingFile": "character_creation_menu"
+    },
+    {
+      "LocalizedMod": "shoaib.stardewaccess",
+      "LocalizedFile": "commands",
+      "LocalizingFile": "commands"
+    }
+  ]
+}
