@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "[Fluent][EN] Stardew Access",
-  "Author": "Your Name",
+  "Name": "[Fluent][HU] Stardew Access",
+  "Author": "Nikolett Till",
   "Version": "1.0.0",
-  "Description": "<description>",
-  "UniqueID": "<see the readme for an example>",
+  "Description": "This is the official hungarian translation for Stardew Access",
+  "UniqueID": "Nikolett Till.fluent.stardewaccess.HU",
   "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
   "ContentPackFor": {
     "UniqueID": "Shockah.ProjectFluent"
