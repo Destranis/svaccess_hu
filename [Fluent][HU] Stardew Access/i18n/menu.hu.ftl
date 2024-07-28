@@ -291,8 +291,8 @@ menu-item_grab-chest_colors =
    [20] fehér
    *[other] ismeretlen
   } {$is_selected ->
-  [0] {EMPTYSTRING()}
-  *[1] 
+    [0] {EMPTYSTRING()}
+    *[1] <missing "selected">
   }
 
 ### Shop menu

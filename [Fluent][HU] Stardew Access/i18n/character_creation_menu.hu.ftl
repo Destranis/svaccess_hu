@@ -52,15 +52,14 @@ menu-character_creation-cabin_layout_nearby_button = Kunyhók egybe gomb
 menu-character_creation-cabin_layout_separate_button = kunyhók külön gomb
 menu-character_creation-increase_profit_margin_button = Profithatár növelése gomb
 # The 'value' will be 'normal' instead of `1`. So translate that here as shown in example below.
-{$value ->
-[normal] Normál
-*[other] {$value}
-#   }
-menu-character_creation-profit_margin_label = Profithatár: {$value}
+menu-character_creation-profit_margin_label = Profithatár: {$value ->
+    [normal] Normál
+    *[other] {$value}
+  }
 menu-character_creation-decrease_profit_margin_button = Profithatár csökkentése gomb
 menu-character_creation-money_style_separate_wallets_button = {$separate_wallets ->
-[0] Közös
-*[1] Egyéni
+    [0] Közös
+    *[1] Egyéni
   } Pénzkezelés gomb
 
 ## Character design controls

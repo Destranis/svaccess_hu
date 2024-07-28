@@ -3,7 +3,7 @@
   "Author": "Nikolett Till",
   "Version": "1.0.0",
   "Description": "This is the official hungarian translation for Stardew Access",
-  "UniqueID": "Nikolett Till.fluent.stardewaccess.HU",
+  "UniqueID": "NikolettTill.fluent.stardewaccess.HU",
   "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
   "ContentPackFor": {
     "UniqueID": "Shockah.ProjectFluent"
