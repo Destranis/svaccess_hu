@@ -64,7 +64,15 @@ feature-speak_location_name = {$location_name}
 feature-speak_health_n_stamina-in_percentage_format = életerő {$health} %, energia {$stamina} %.
 feature-speak_health_n_stamina-in_normal_format = életerő {$health}, energia {$stamina}
 feature-speak_money = {$money} arany
-feature-speak_time_and_season = Az idő {$time_of_day}. {$day} van, {$season} évszak {$date} napja.
+feature-speak_time_and_season = Az idő {$time_of_day}. {$day -> 
+    [Monday] Hétfő
+    [Tuesday] Kedd
+    [Wednesday] Szerda
+    [Thursday] Csütörtök
+    [Friday] Péntek
+    [Saturday] Szombat
+    *[Sunday] Vasárnap
+  } van, {$season} évszak {$date} napja.
 feature-speak_position = {$verbose_coordinates ->
     [0] {$x_pos}, {$y_pos}
     *[1] X: {$x_pos}, Y: {$y_pos}

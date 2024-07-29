@@ -3,28 +3,29 @@
 ## Default Controls
 
 menu-character_creation-farmer_name_text_box = Gazda neve {$value ->
-    [null] text box
+    [null] Szerkeztőmező
     *[other] : {$value}
   }
 menu-character_creation-farm_name_text_box = Farm neve {$value ->
-    [null] text box
+    [null] Szerkeztőmező
     *[other] : {$value}
   }
 menu-character_creation-favorite_thing_text_box = Kedvenc dolog {$value ->
-    [null] text box
+    [null] Szerkeztőmező
     *[other] : {$value}
   }
 menu-character_creation-previous_pet_button = Előző háziállat gomb
 menu-character_creation-next_pet_button = Következő háziállat gomb
 menu-character_creation-current_pet-prefix = Jelenlegi háziállat: {$content}
 menu-character_creation-random_skin_button = Random kinézet gomb
-menu-character_creation-gender_button = {$is_selected ->
-    [0] {EMPTYSTRING()}
-    *[1] kiválasztva
-  } Nem: {$is_male ->
+menu-character_creation-gender_button = Nem: {$is_male ->
     [0] Nő
     *[1] Férfi
-  } gomb
+  }
+ {$is_selected ->
+    [0] {EMPTYSTRING()}
+    *[1] kiválasztva
+  }  gomb
 menu-character_creation-farm_type_buttons = {$is_selected ->
     [0] {EMPTYSTRING()}
     *[1] Kiválasztva
@@ -37,10 +38,10 @@ menu-character_creation-skip_intro_button = Intró átugrása {$is_enabled ->
     *[1] Bejelölve
   } 
 menu-character_creation-advanced_options_button = Haladó beállítások gomb
-menu-character_creation-character_design_controls_usage_info = Nyomj ctrl+szóközt a karaktered kinézetéhez szükséges gombok megjelenítéséhez.
+menu-character_creation-character_design_controls_usage_info = Nyomj ctrl+szóközt a karaktered kinézetének változtatásához  szükséges gombok megjelenítéséhez.
 menu-character_creation-character_design_controls_toggle_info = Karakterkinézet változtató gombok {$is_enabled ->
-    [0] Eltűntetve
-    *[1] Megjelenítve
+    [0] ki
+    *[1] Be
   }
 
 ## Co-op controls
@@ -240,14 +241,14 @@ menu-character_creation-description-hair = {$less_info ->
 
 menu-character_creation-description-shirt = {$less_info ->
     [0] {$index ->
-      [1001] Vörös farmer kertésznadrág
+      [1001] Vörös farmer munkaruha
       [1002] Barna ing
       [1003] Halványzöld, barna övvel
       [1004] Fekete, szürke foltos mintával
       [1005] Fekete, koponyás mintával
       [1006] Kékesszürke, felhőmintával
       [1007] Krémszínű, halványkék vízszintes csíkokkal
-      [1008] Zöld farmer kertésznadrág
+      [1008] Zöld farmer munkaruha
       [1009] Sárga, barna vízszintes cikkcakk mintával
       [1010] Kékeszöld, felhőmintával
       [1011] Fekete, fehér a betűvel
@@ -284,7 +285,7 @@ menu-character_creation-description-shirt = {$less_info ->
       [1042] Fehér, vízszintes krémszínű csíkkal
       [1043] Zöld függőleges átmenet övvel
       [1044] Kék függőleges átmenet
-      [1045] Kék, fűzött gallér, fehér pöttyög
+      [1045] Kék, fűzött gallér, fehér pöttyök
       [1046] Barna függőleges átmenet
       [1047] Lila függőleges átmenet
       [1048] Barna, ezüst övvel
@@ -307,19 +308,19 @@ menu-character_creation-description-shirt = {$less_info ->
       [1065] kék foltvarrásos
       [1066] Zöld felső, fehér alsóinggel
       [1067] Szürke, egérarc mintával
-      [1068] Sárga, alacsony derekú kertésznadrág
+      [1068] Sárga, alacsony derekú munkaruha
       [1069] Halványzöld, békamintával
       [1070] Zöld, barna övvel
       [1071] sötétvörös, világoslila csíkkal
-      [1072] Fehér kertésznadrág barna övvel
+      [1072] Fehér munkaruha barna övvel
       [1073] Krém színű cropped kapucnis pulóver, kék trikó
       [1074] Sötétkék és lila vízszintes elválasztás
-      [1075] Kék-piros kertésznadrág barna övvel
+      [1075] Kék-piros munkaruha barna övvel
       [1076] Fekete, zöld gombafelhő mintával
       [1077] Halványlila, barna övvel
       [1078] Fehér, kinyújtott nyelvű szomorú arc mintával
       [1079] Kék-fehér kendő
-      [1080] Fekete-kék kertésznadrág
+      [1080] Fekete-kék munkaruha
       [1081] Szürke, fehér csíkkal a vállon
       [1082] Zöld, halványzöld csíkkal a derékon
       [1083] Sötétkék
@@ -339,11 +340,11 @@ menu-character_creation-description-shirt = {$less_info ->
       [1097] Zöld, sötétzöld pöttyökkel
       [1098] Szürke gombos ing sötét függőleges csíkkal
       [1099] Fekete tengerészkabát fehér  gallérral
-      [1100] Lila és fekete kertésznadrág
+      [1100] Lila és fekete munkaruha
       [1101] Halványkék, vízszintes sötét csíkkal
       [1102] Fekete, az eleje fehér
       [1103] Vászon, szőke bőrszíj
-      [1104] Fekete kertésznadrág szürke csíkokkal
+      [1104] Fekete munkaruha szürke csíkokkal
       [1105] Zöld és türkiz csíkos
       [1106] Kék, fehér J betűvel
       [1107] Zöld és fekete vízszintes elválasztás
