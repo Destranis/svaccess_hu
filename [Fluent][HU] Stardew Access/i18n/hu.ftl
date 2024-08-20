@@ -332,7 +332,7 @@ terrain_util-tree_growth_stage = {$stage ->
   }
 terrain_util-bush_type = {$type ->
     [0] kis
-    [1] <missing "medium">
+    [1] .
     [2] nagy
     [3] teanövény {$has_matured ->
       [0] csemete

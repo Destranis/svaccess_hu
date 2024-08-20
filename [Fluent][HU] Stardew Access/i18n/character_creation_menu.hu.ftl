@@ -3,15 +3,15 @@
 ## Default Controls
 
 menu-character_creation-farmer_name_text_box = Gazda neve {$value ->
-    [null] Szerkeztőmező
+    [null] Szerkesztőmező
     *[other] : {$value}
   }
 menu-character_creation-farm_name_text_box = Farm neve {$value ->
-    [null] Szerkeztőmező
+    [null] Szerkesztőmező
     *[other] : {$value}
   }
 menu-character_creation-favorite_thing_text_box = Kedvenc dolog {$value ->
-    [null] Szerkeztőmező
+    [null] Szerkesztőmező
     *[other] : {$value}
   }
 menu-character_creation-previous_pet_button = Előző háziállat gomb
@@ -67,7 +67,7 @@ menu-character_creation-money_style_separate_wallets_button = {$separate_wallets
 
 menu-character_creation-rotate_left_button = Forgatás balra gomb
 menu-character_creation-rotate_right_button = Forgatás jobbra gomb
-menu-character_creation-eye_color_hue_slider = Szemszím árnyalata csúszka
+menu-character_creation-eye_color_hue_slider = Szemszín árnyalata csúszka
 menu-character_creation-eye_color_saturation_slider = Szemszín telítettsége csúszka
 menu-character_creation-eye_color_value_slider = Szemszín fényessége csúszka
 menu-character_creation-hair_color_hue_slider = Hajszín árnyalata csúszka
@@ -183,7 +183,7 @@ menu-character_creation-description-hair = {$less_info ->
       [21] Rövid, fésült haj
       [22] Jobb oldalon elválasztott, rövid haj, magasan elhelyezett copfokkal.
       [23] Jobb oldalon elválasztott haj, frufruval, szoros magas konttyal
-      [24] Jobb oldalon elválasztott haj, rendezetlen frufruval, 15 cm hosszú
+      [24] Jobb oldalon elválasztott 15 cm hosszú haj, rendezetlen frufruval.
       [25] Vállközépig érő, Jobb oldalon elválasztott haj, oldalra söpört frufruval.
       [26] Ötvenes évekbeli, tupírozott, göndör végű bob.
       [27] Középen elválasztott, combközépig érő haj
